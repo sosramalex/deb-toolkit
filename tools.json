@@ -13,5 +13,10 @@
     "name": "deb-autorr",
     "desc": "Movie automation stack (Radarr, Prowlarr, qBittorrent, Plex/Jellyfin)",
     "url": "deb-autorr/main/install.sh"
+  },
+  {
+    "name": "claim-plex",
+    "desc": "Claim an already-installed Plex server",
+    "url": "deb-autorr/main/claim-plex.sh"
   }
 ]
