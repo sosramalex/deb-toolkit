@@ -13,5 +13,10 @@
     "name": "deb-autorr",
     "desc": "Movie automation stack (Radarr, Prowlarr, qBittorrent, Plex/Jellyfin)",
     "url": "deb-autorr/main/install.sh"
+  },
+  {
+    "name": "deb-crafty",
+    "desc": "Minecraft Server (Crafty Controller) — web-based server manager",
+    "url": "deb-crafty/main/install.sh"
   }
 ]
