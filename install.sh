@@ -95,7 +95,7 @@ while true; do
     menu_args+=("--title" "Debian Tool Kit" "--menu" "Select a tool to run:" "18" "70" "8")
     for i in "${!TOOLS[@]}"; do
         IFS='|' read -r name desc _ <<< "${TOOLS[$i]}"
-        [[ "${#desc}" -gt 45 ]] && desc="${desc:0:42}..."
+        [[ "${#desc}" -gt 35 ]] && desc="${desc:0:32}..."
         menu_args+=("$((i+1))" "${name} — ${desc}")
     done
     menu_args+=("Q" "Quit")
