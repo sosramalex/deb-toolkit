@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
 set -u
 
-GREEN='\033[0;32m'; YELLOW='\033[1;33m'; CYAN='\033[0;36m'; RED='\033[0;31m'; BOLD='\033[1m'; NC='\033[0m'
-log()  { echo -e "${GREEN}[+]${NC} $1"; }
-warn() { echo -e "${YELLOW}[!]${NC} $1"; }
-info() { echo -e "${CYAN}[*]${NC} $1"; }
-err()  { echo -e "${RED}[-]${NC} $1"; }
+log()  { echo "[+] $1"; }
+info() { echo "[*] $1"; }
+err()  { echo "[-] $1" >&2; }
 
 MANIFEST_URL="https://raw.githubusercontent.com/alsosram/deb-toolkit/master/tools.json"
 
@@ -55,21 +53,14 @@ run_tool() {
     IFS='|' read -r name desc url <<< "${TOOLS[$idx]}"
     local full_url="https://raw.githubusercontent.com/alsosram/$url"
 
-    echo ""
-    log "Starting: $name"
-    info "$desc"
-    echo ""
-    warn "This tool will be downloaded from GitHub and executed."
-    warn "Inspect it first: $full_url"
-    echo ""
-
-    read -rp "  Download and run now? [Y/n]: " ans
-    if [[ "$ans" != "n" && "$ans" != "N" ]]; then
+    if whiptail --yesno --title "$name" \
+        "Tool:  ${name}\n\
+Description:  ${desc}\n\n\
+This tool will be downloaded from GitHub and executed.\n\
+Source: ${full_url}\n\n\
+Download and run now?" 12 65; then
         bash <(curl -fsSL "$full_url") < /dev/tty
-    else
-        log "Skipped."
     fi
-    echo ""
 }
 
 # --- Main ---
