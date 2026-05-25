@@ -11,27 +11,12 @@
   },
   {
     "name": "deb-autorr",
-    "desc": "Movie automation stack (Radarr, Prowlarr, qBittorrent, Plex/Jellyfin)",
+    "desc": "Full auto rr stack (install, OMV layout, claim, purge)",
     "url": "deb-autorr/main/install.sh"
-  },
-  {
-    "name": "claim-plex",
-    "desc": "Claim an already-installed Plex server",
-    "url": "deb-autorr/main/claim-plex.sh"
   },
   {
     "name": "deb-crafty",
     "desc": "Minecraft Server (Crafty Controller) — web-based server manager",
     "url": "deb-crafty/main/install.sh"
-  },
-  {
-    "name": "omv-layout",
-    "desc": "Apply OMV storage layout (existing install)",
-    "url": "deb-autorr/main/apply-omv-layout.sh"
-  },
-  {
-    "name": "purge-autorr",
-    "desc": "Purge all autorr services and config",
-    "url": "deb-autorr/main/purge.sh"
   }
 ]
