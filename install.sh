@@ -44,6 +44,7 @@ fi
     info "Available tools:"
     for i in "${!TOOLS[@]}"; do
         IFS='|' read -r name desc _ <<< "${TOOLS[$i]}"
+        [[ "${#desc}" -gt 50 ]] && desc="${desc:0:47}..."
         echo "  $((i+1))) $name — $desc"
     done
     exit 0
@@ -94,6 +95,7 @@ while true; do
     menu_args+=("--title" "Debian Tool Kit" "--menu" "Select a tool to run:" "18" "70" "8")
     for i in "${!TOOLS[@]}"; do
         IFS='|' read -r name desc _ <<< "${TOOLS[$i]}"
+        [[ "${#desc}" -gt 45 ]] && desc="${desc:0:42}..."
         menu_args+=("$((i+1))" "${name} — ${desc}")
     done
     menu_args+=("Q" "Quit")
