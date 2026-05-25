@@ -23,5 +23,15 @@
     "name": "deb-crafty",
     "desc": "Minecraft Server (Crafty Controller) — web-based server manager",
     "url": "deb-crafty/main/install.sh"
+  },
+  {
+    "name": "omv-layout",
+    "desc": "Apply OMV storage layout (existing install)",
+    "url": "deb-autorr/main/apply-omv-layout.sh"
+  },
+  {
+    "name": "purge-autorr",
+    "desc": "Purge all autorr services and config",
+    "url": "deb-autorr/main/purge.sh"
   }
 ]
