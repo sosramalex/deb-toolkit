@@ -34,7 +34,7 @@ for t in json.load(sys.stdin):
 if [[ ${#TOOLS[@]} -eq 0 ]]; then
     err "Failed to fetch toolbox manifest."
     err "Try again or manually run a tool:"
-    echo "  curl -fsSL https://raw.githubusercontent.com/alsosram/deb-auto/main/install.sh | bash"
+    echo "  curl -fsSL https://raw.githubusercontent.com/alsosram/deb-autoset/main/install.sh | bash"
     exit 1
 fi
 

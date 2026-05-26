@@ -1,6 +1,6 @@
 [
   {
-    "name": "deb-auto",
+    "name": "deb-autoset",
     "desc": "Debian setup (sudo, curl, cockpit, SSH)",
     "url": "deb-auto/main/install.sh"
   },
