@@ -7,7 +7,7 @@
   {
     "name": "deb-autosetRR",
     "desc": "Full auto rr stack (install, OMV layout, claim, purge)",
-    "url": "deb-autorr/main/install.sh"
+    "url": "deb-autosetRR/main/install.sh"
   },
   {
     "name": "deb-crafty",
