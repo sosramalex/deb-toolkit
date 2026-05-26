@@ -13,10 +13,10 @@ bash <(curl -fsSL https://raw.githubusercontent.com/alsosram/deb-toolkit/master/
 
 | # | Tool | Description |
 |---|------|-------------|
-| 1 | deb-auto     | Debian setup (sudo, curl, cockpit, SSH) |
-| 2 | deb-bootopti | Boot speed optimizer (trim initramfs, GRUB, services) |
-| 3 | deb-autorr   | Full auto rr stack — install, OMV layout, claim, purge, fix perms |
-| 4 | deb-crafty   | Minecraft Server (Crafty Controller) — web-based server manager |
+| 1 | deb-auto       | Debian setup (sudo, curl, SSH, IP login banner) |
+| 2 | deb-autorr     | Full auto rr stack — install, OMV layout, claim, purge, fix perms |
+| 3 | deb-crafty     | Minecraft Server (Crafty Controller) — web-based server manager |
+| 4 | deb-sleepwithme | Scheduled server shutdown by day and time |
 
 ## Options
 

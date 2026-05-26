@@ -5,11 +5,6 @@
     "url": "deb-auto/main/install.sh"
   },
   {
-    "name": "deb-bootopti",
-    "desc": "Boot speed optimizer (trim initramfs, GRUB, services)",
-    "url": "deb-bootopti/master/bootopti.sh"
-  },
-  {
     "name": "deb-autorr",
     "desc": "Full auto rr stack (install, OMV layout, claim, purge)",
     "url": "deb-autorr/main/install.sh"
