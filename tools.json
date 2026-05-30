@@ -18,5 +18,10 @@
     "name": "deb-sleepwithme",
     "desc": "Scheduled server shutdown by day and time",
     "url": "deb-sleepwithme/main/install.sh"
+  },
+  {
+    "name": "deb-renameuser",
+    "desc": "Interactive Debian username changer with whiptail UI",
+    "url": "deb-renameuser/main/renameuser.sh"
   }
 ]

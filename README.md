@@ -17,6 +17,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/sosramalex/deb-toolkit/maste
 | 2 | deb-autosetRR     | Full auto rr stack (install, OMV layout, claim, purge) |
 | 3 | deb-crafty     | Minecraft Server (Crafty Controller) — web-based server manager |
 | 4 | deb-sleepwithme | Scheduled server shutdown by day and time |
+| 5 | deb-renameuser | Interactive Debian username changer with whiptail UI |
 
 ## Options
 
