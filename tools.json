@@ -20,8 +20,8 @@
     "url": "deb-sleepwithme/main/install.sh"
   },
   {
-    "name": "deb-renameuser",
-    "desc": "Interactive Debian username changer with whiptail UI",
-    "url": "deb-renameuser/main/renameuser.sh"
+    "name": "deb-manuser",
+    "desc": "Full user manager: create, delete, rename, sudo, permissions",
+    "url": "deb-manuser/main/renameuser.sh"
   }
 ]
