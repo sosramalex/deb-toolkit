@@ -5,7 +5,7 @@ log()  { echo "[+] $1"; }
 info() { echo "[*] $1"; }
 err()  { echo "[-] $1" >&2; }
 
-MANIFEST_URL="https://raw.githubusercontent.com/alsosram/deb-toolkit/master/tools.json"
+MANIFEST_URL="https://raw.githubusercontent.com/sosramalex/deb-toolkit/master/tools.json"
 
 usage() {
     cat <<EOF
@@ -34,7 +34,7 @@ for t in json.load(sys.stdin):
 if [[ ${#TOOLS[@]} -eq 0 ]]; then
     err "Failed to fetch toolbox manifest."
     err "Try again or manually run a tool:"
-    echo "  curl -fsSL https://raw.githubusercontent.com/alsosram/deb-autoset/main/install.sh | bash"
+    echo "  curl -fsSL https://raw.githubusercontent.com/sosramalex/deb-autoset/main/install.sh | bash"
     exit 1
 fi
 
@@ -51,7 +51,7 @@ fi
 run_tool() {
     local idx=$1
     IFS='|' read -r name desc url <<< "${TOOLS[$idx]}"
-    local full_url="https://raw.githubusercontent.com/alsosram/$url"
+    local full_url="https://raw.githubusercontent.com/sosramalex/$url"
 
     if whiptail --yesno --title "$name" \
         "Tool:  ${name}\n\

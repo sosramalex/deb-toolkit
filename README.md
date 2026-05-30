@@ -6,7 +6,7 @@ Master launcher for all Debian tools — browse descriptions and run interactive
 
 ```bash
 su -
-bash <(curl -fsSL https://raw.githubusercontent.com/alsosram/deb-toolkit/master/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/sosramalex/deb-toolkit/master/install.sh)
 ```
 
 ## Available Tools
@@ -43,4 +43,4 @@ The toolbox is defined by [`tools.json`](tools.json). To add a new tool, edit th
 }
 ```
 
-The `url` is relative to `https://raw.githubusercontent.com/alsosram/`. That's it — `install.sh` reads the manifest dynamically, no script changes needed.
+The `url` is relative to `https://raw.githubusercontent.com/sosramalex/`. That's it — `install.sh` reads the manifest dynamically, no script changes needed.
