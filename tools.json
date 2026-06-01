@@ -28,5 +28,10 @@
     "name": "deb-manuser",
     "desc": "Full user manager: create, delete, rename, sudo, permissions",
     "url": "deb-manuser/main/renameuser.sh"
+  },
+  {
+    "name": "deb-procman",
+    "desc": "Process and service manager \u2014 list, start, stop, restart, enable/disable at boot",
+    "url": "deb-procman/main/install.sh"
   }
 ]
