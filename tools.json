@@ -33,5 +33,10 @@
     "name": "deb-procman",
     "desc": "Process and service manager \u2014 list, start, stop, restart, enable/disable at boot",
     "url": "deb-procman/main/install.sh"
+  },
+  {
+    "name": "deb-ombak",
+    "desc": "OMV backup utility \u2014 rsync backups by UUID with scheduling and logging",
+    "url": "deb-ombak/main/install.sh"
   }
 ]
