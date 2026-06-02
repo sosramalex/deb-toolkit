@@ -21,7 +21,6 @@ bash <(curl -fsSL https://raw.githubusercontent.com/sosramalex/deb-toolkit/maste
 | 6 | deb-manuser | Full user manager: create, delete, rename, sudo, permissions |
 | 7 | deb-procman | Process and service manager — list, start, stop, restart, enable/disable at boot |
 | 8 | deb-ombak | OMV backup utility — rsync backups by UUID with scheduling and logging |
-| 9 | deb-tuibox | Modular terminal UI toolbox — LLM chat, settings, extensible plugin system |
 
 ## Options
 
