@@ -38,10 +38,5 @@
     "name": "deb-ombak",
     "desc": "OMV backup utility \u2014 rsync backups by UUID with scheduling and logging",
     "url": "deb-ombak/main/install.sh"
-  },
-  {
-    "name": "deb-tuibox",
-    "desc": "Modular terminal UI toolbox \u2014 LLM chat, settings, extensible plugin system",
-    "url": "deb-tuibox/main/installer.sh"
   }
 ]
