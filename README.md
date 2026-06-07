@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/shell-blue?logo=bash&style=flat-square" alt="Shell">
+</p>
+
 # Debian Tool Kit
 
 Master launcher for all Debian tools — browse descriptions and run interactively.
