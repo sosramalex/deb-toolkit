@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sosaramosalexis/deb-toolkit/master/logo.jpg" width="90" alt="deb-toolkit logo">
+  <img src="https://i.imgur.com/UFxVF2L.png">
 </p>
 
 [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=sosaramosalexis%2Fdeb-toolkit&color=181717&logo=github)](https://github.com/sosaramosalexis/deb-toolkit)
